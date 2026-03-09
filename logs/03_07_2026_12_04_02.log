@@ -1,0 +1,34 @@
+{"timestamp": "2026-03-07T18:04:03.290387Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-03-07T18:04:03.291144Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-03-07T18:04:03.291644Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_2v...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2026-03-07T18:04:03.292072Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-03-07T18:04:03.295101Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20260307_120403_e5eeb70b", "temp_dir": "data\\session_20260307_120403_e5eeb70b", "faiss_dir": "faiss_index\\session_20260307_120403_e5eeb70b", "sessionized": true, "timestamp": "2026-03-07T18:04:03.297448Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "data/NIPS-2017-attention-is-all-you-need-Paper.pdf", "saved_as": "data\\session_20260307_120403_e5eeb70b\\21997c56.pdf", "timestamp": "2026-03-07T18:04:03.327563Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 11, "timestamp": "2026-03-07T18:04:03.694250Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 207, "chunk_size": 200, "overlap": 20, "timestamp": "2026-03-07T18:04:03.700929Z", "level": "info", "event": "Documents split"}
+{"model": "models/gemini-embedding-001", "timestamp": "2026-03-07T18:04:03.701824Z", "level": "info", "event": "Loading embedding model"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "faiss_index\\session_20260307_120403_e5eeb70b", "timestamp": "2026-03-07T18:04:06.665778Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2026-03-07T18:04:06.666262Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2026-03-07T18:04:06.667892Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-03-07T18:04:06.668320Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-03-07T18:04:06.668726Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_2v...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2026-03-07T18:04:06.669093Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-03-07T18:04:06.673895Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2026-03-07T18:04:06.676349Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20260307_120403_e5eeb70b", "timestamp": "2026-03-07T18:04:06.692770Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20260307_120403_e5eeb70b", "timestamp": "2026-03-07T18:04:06.694207Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2026-03-07T18:04:06.695580Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-03-07T18:04:06.696090Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-03-07T18:04:06.696351Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_2v...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2026-03-07T18:04:06.696610Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-03-07T18:04:06.698754Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/gemini-embedding-001", "timestamp": "2026-03-07T18:04:06.699121Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20260307_120403_e5eeb70b", "timestamp": "2026-03-07T18:04:06.707931Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20260307_120403_e5eeb70b", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20260307_120403_e5eeb70b", "timestamp": "2026-03-07T18:04:06.708384Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20260307_120403_e5eeb70b", "user_input": "tell about agentic ai", "answer_preview": "I'm sorry, but the provided text does not contain information about agentic AI. Therefore, I cannot provide an answer.", "timestamp": "2026-03-07T18:04:25.542884Z", "level": "info", "event": "Chain invoked successfully"}
+{"session_id": "session_20260307_120403_e5eeb70b", "user_input": "what is agentic ai", "answer_preview": "I'm sorry, but the provided text does not contain information about agentic AI. Therefore, I cannot provide an answer.", "timestamp": "2026-03-07T18:04:45.732220Z", "level": "info", "event": "Chain invoked successfully"}
+{"session_id": "session_20260307_120403_e5eeb70b", "user_input": "what is document contain", "answer_preview": "The document contains information about machine reading, including experiments with different parameter settings and attention mechanisms. It also inc", "timestamp": "2026-03-07T18:05:10.293795Z", "level": "info", "event": "Chain invoked successfully"}
+{"session_id": "session_20260307_120403_e5eeb70b", "user_input": "what is machine learning", "answer_preview": "The document mentions recurrent neural networks, long short-term memory, gated recurrent neural networks, and dropout as related to machine learning. ", "timestamp": "2026-03-07T18:05:25.460150Z", "level": "info", "event": "Chain invoked successfully"}
