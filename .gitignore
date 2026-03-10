@@ -1,2 +1,14 @@
-# Ignore environment file with secrets
+﻿# Ignore environment files
 .env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary/session data
+data/session_*
+faiss_index/session_*
+
+# Ignore Python caches
+__pycache__/
+*.pyc
