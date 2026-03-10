@@ -1,14 +1,14 @@
 {
     "family": "llmopstdlive",
     "networkMode": "awsvpc",
-    "executionRoleArn": "arn:aws:iam::306570692493:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::814369618759:role/ecsTaskExecutionRole",
     "requiresCompatibilities": ["FARGATE"],
     "cpu": "1024",
     "memory": "8192",
     "containerDefinitions": [
       {
         "name": "llmops-live-container",
-        "image": "306570692493.dkr.ecr.us-east-1.amazonaws.com/llmopsrepolive",
+        "image": "814369618759.dkr.ecr.us-east-1.amazonaws.com/llmopsrepolive",
         "cpu": 1024,
         "essential": true,
         "portMappings": [
@@ -28,8 +28,8 @@
         ],
         "secrets": [
           {
-            "name": "apikeyliveclass",
-            "valueFrom": "arn:aws:secretsmanager:us-east-1:306570692493:secret:apikeyliveclass-EykEZf"
+            "name": "APIKEYSTEST",
+            "valueFrom": "arn:aws:secretsmanager:us-east-1:814369618759:secret:APIKEYSTEST-XuGLiE"
           }
   
         ],
