@@ -32,6 +32,7 @@
             "valueFrom": "arn:aws:secretsmanager:us-east-1:814369618759:secret:APIKEYSTEST-FJhwR3"
           }
   
+          
         ],
         "logConfiguration": {
           "logDriver": "awslogs",
